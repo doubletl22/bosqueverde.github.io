@@ -1,0 +1,25 @@
+<style>
+  body {
+    font-size: 16px;
+  }
+
+  /* Định dạng cho thiết bị có màn hình nhỏ (dưới 768px) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .header {
+      flex-direction: column;
+    }
+  }
+
+  /* Định dạng cho thiết bị rất nhỏ (dưới 480px) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+    .menu {
+      display: none;
+    }
+  }
+</style>
